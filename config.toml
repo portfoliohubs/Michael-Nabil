@@ -1,0 +1,99 @@
+baseURL = 'https://yourusername.github.io/'
+languageCode = 'en'
+title = 'Dr. Michael Nabil - Dental Websites Specialist'
+theme = ''
+
+[params]
+  name = "Dr. Michael Nabil"
+  title = "Dentist & Dental Websites Specialist"
+  description = "Creating exceptional dental websites for dentists worldwide"
+  projects_count = "45+"
+  rating = "4.7"
+  regions = "Egypt, MENA, Kuwait, UAE, Saudi Arabia"
+  whatsapp = "+201234567890"
+  
+  [params.header]
+    main_title_en = "Transforming Dental Practices Into Digital Success Stories"
+    subtitle_en = "Professional, Modern, Results-Driven Websites for Dentists"
+    main_title_ar = "تحويل عيادات الأسنان إلى قصص نجاح رقمية"
+    subtitle_ar = "مواقع احترافية وعصرية وموجهة للنتائج لأطباء الأسنان"
+  
+  [params.about]
+    description_en = "I am Doctor Michael Nabil, Dentist and specialist for dental websites developing, more than 45 dentist websites in Egypt, MENA region, KW, UE, SA"
+    description_ar = "أنا الدكتور مايكل نبيل، طبيب أسنان ومتخصص في تطوير مواقع الويب للأسنان، أكثر من 45 موقعًا لأطباء الأسنان في مصر ومنطقة الشرق الأوسط وشمال إفريقيا والكويت والإمارات العربية المتحدة والمملكة العربية السعودية"
+  
+  [params.cta]
+    title_en = "Ready for Upgrading?"
+    title_ar = "جاهز للترقية؟"
+    button_en = "Contact Me on WhatsApp"
+    button_ar = "تواصل معي على واتساب"
+
+[[params.projects]]
+  id = 1
+  name_en = "Smile Dental Clinic"
+  name_ar = "عيادة سمايل للأسنان"
+  image = "project1.jpg"
+  url = "project1.html"
+
+[[params.projects]]
+  id = 2
+  name_en = "Perfect Smile Center"
+  name_ar = "مركز بيرفكت سمايل"
+  image = "project2.jpg"
+  url = "project2.html"
+
+[[params.projects]]
+  id = 3
+  name_en = "Bright Dental Care"
+  name_ar = "رعاية برايت للأسنان"
+  image = "project3.jpg"
+  url = "project3.html"
+
+[[params.projects]]
+  id = 4
+  name_en = "Elite Dental Studio"
+  name_ar = "استوديو إيليت للأسنان"
+  image = "project4.jpg"
+  url = "project4.html"
+
+[[params.projects]]
+  id = 5
+  name_en = "Premium Dental Hub"
+  name_ar = "مركز بريميوم للأسنان"
+  image = "project5.jpg"
+  url = "project5.html"
+
+[[params.projects]]
+  id = 6
+  name_en = "Diamond Smile Clinic"
+  name_ar = "عيادة دايموند سمايل"
+  image = "project6.jpg"
+  url = "project6.html"
+
+[[params.projects]]
+  id = 7
+  name_en = "Royal Dental Care"
+  name_ar = "رعاية رويال للأسنان"
+  image = "project7.jpg"
+  url = "project7.html"
+
+[[params.projects]]
+  id = 8
+  name_en = "Advanced Dental Solutions"
+  name_ar = "حلول أدفانسد للأسنان"
+  image = "project8.jpg"
+  url = "project8.html"
+
+[[params.projects]]
+  id = 9
+  name_en = "Modern Dentistry Center"
+  name_ar = "مركز مودرن للأسنان"
+  image = "project9.jpg"
+  url = "project9.html"
+
+[[params.projects]]
+  id = 10
+  name_en = "Excellence Dental Clinic"
+  name_ar = "عيادة إكسيلانس للأسنان"
+  image = "project10.jpg"
+  url = "project10.html"
