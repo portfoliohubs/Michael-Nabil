@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dental Solutions - Dr. Michael Nabil Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #06B6D4;
+            --primary-dark: #0891B2;
+            --accent: #F59E0B;
+            --white: #FFFFFF;
+            --gray-50: #F9FAFB;
+            --gradient-primary: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Tajawal', sans-serif;
+            background: var(--white);
+            color: #111827;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: var(--shadow-lg);
+            z-index: 1000;
+        }
+
+        .hero {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 120px 20px 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .solutions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .solution {
+            background: linear-gradient(135deg, var(--gray-50) 0%, white 100%);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+            border-left: 5px solid var(--primary);
+        }
+
+        .solution h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    
+    <section class="hero">
+        <h1>Advanced Dental Solutions</h1>
+        <p>Innovative Technology Meets Expert Care</p>
+    </section>
+
+    <div class="content">
+        <h2>Our Advanced Solutions</h2>
+        <p>We utilize cutting-edge technology and innovative techniques to provide the best dental solutions for our patients.</p>
+        
+        <div class="solutions">
+            <div class="solution">
+                <h3>🔬 Digital Dentistry</h3>
+                <p>3D imaging, digital impressions, and CAD/CAM technology</p>
+            </div>
+            <div class="solution">
+                <h3>🤖 Laser Dentistry</h3>
+                <p>Minimally invasive procedures with advanced laser technology</p>
+            </div>
+            <div class="solution">
+                <h3>💻 Smart Treatment Planning</h3>
+                <p>AI-assisted diagnosis and personalized treatment plans</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
