@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Smile Center - Dr. Michael Nabil Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #3B82F6;
+            --primary-dark: #2563EB;
+            --accent: #F59E0B;
+            --white: #FFFFFF;
+            --gray-50: #F9FAFB;
+            --gradient-primary: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Tajawal', sans-serif;
+            background: var(--white);
+            color: #111827;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: var(--shadow-lg);
+            z-index: 1000;
+        }
+
+        .hero {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 120px 20px 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: var(--gray-50);
+            padding: 35px;
+            border-radius: 15px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    
+    <section class="hero">
+        <h1>Perfect Smile Center</h1>
+        <p>Where Perfect Smiles Begin</p>
+    </section>
+
+    <div class="content">
+        <h2>About Our Clinic</h2>
+        <p>Perfect Smile Center offers state-of-the-art dental services with a focus on patient comfort and exceptional results.</p>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>🦷 Advanced Technology</h3>
+                <p>Latest equipment and digital imaging for precise diagnosis</p>
+            </div>
+            <div class="feature-card">
+                <h3>👨‍⚕️ Expert Team</h3>
+                <p>Experienced dentists committed to your dental health</p>
+            </div>
+            <div class="feature-card">
+                <h3>💎 Premium Care</h3>
+                <p>Personalized treatment plans for every patient</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
