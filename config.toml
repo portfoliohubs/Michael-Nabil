@@ -1,10 +1,6 @@
-baseURL = 'https://portfoliohubs.github.io/Michael-Nabil'
+baseURL = 'https://portfoliohubs.github.io/Michael-Nabil/'
 languageCode = 'en'
 title = 'Dr. Michael Nabil - Dental Websites Specialist'
-# Remove or comment out theme line if it exists
-# theme = ''
-
-# Disable theme requirement
 disableKinds = ["taxonomy", "term"]
 
 [params]
