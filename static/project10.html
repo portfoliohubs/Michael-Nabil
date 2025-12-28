@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellence Dental Clinic - Dr. Michael Nabil Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #10B981;
+            --primary-dark: #059669;
+            --secondary: #3B82F6;
+            --accent: #F59E0B;
+            --white: #FFFFFF;
+            --gray-50: #F9FAFB;
+            --gradient-primary: linear-gradient(135deg, #10B981 0%, #3B82F6 100%);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Tajawal', sans-serif;
+            background: var(--white);
+            color: #111827;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: var(--shadow-lg);
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 120px 20px 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .excellence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .excellence-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+            border: 2px solid var(--gray-50);
+            transition: all 0.3s;
+        }
+
+        .excellence-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .excellence-card h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    
+    <section class="hero">
+        <h1>Excellence Dental Clinic</h1>
+        <p>Where Excellence Meets Dental Care</p>
+    </section>
+
+    <div class="content">
+        <h2>Our Commitment to Excellence</h2>
+        <p>Excellence Dental Clinic is dedicated to providing the highest standard of dental care through expertise, innovation, and personalized attention.</p>
+        
+        <div class="excellence-grid">
+            <div class="excellence-card">
+                <h3>🏆 Award-Winning Care</h3>
+                <p>Recognized for excellence in dental treatment and patient care</p>
+            </div>
+            <div class="excellence-card">
+                <h3>🎓 Expert Specialists</h3>
+                <p>Board-certified dentists with years of experience</p>
+            </div>
+            <div class="excellence-card">
+                <h3>💯 Patient Satisfaction</h3>
+                <p>100% commitment to patient comfort and satisfaction</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
