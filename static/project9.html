@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Dentistry Center - Dr. Michael Nabil Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #EF4444;
+            --primary-dark: #DC2626;
+            --accent: #F59E0B;
+            --white: #FFFFFF;
+            --gray-50: #F9FAFB;
+            --gradient-primary: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Tajawal', sans-serif;
+            background: var(--white);
+            color: #111827;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: var(--shadow-lg);
+            z-index: 1000;
+        }
+
+        .hero {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 120px 20px 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .service {
+            background: var(--gray-50);
+            padding: 35px;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .service h3 {
+            color: var(--primary);
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    
+    <section class="hero">
+        <h1>Modern Dentistry Center</h1>
+        <p>Contemporary Care for Today's Patients</p>
+    </section>
+
+    <div class="content">
+        <h2>Modern Approach to Dentistry</h2>
+        <p>Modern Dentistry Center combines contemporary techniques with traditional values to deliver exceptional dental care.</p>
+        
+        <div class="services">
+            <div class="service">
+                <h3>🦷 Preventive Dentistry</h3>
+                <p>Proactive care to prevent dental problems before they start</p>
+            </div>
+            <div class="service">
+                <h3>✨ Cosmetic Enhancements</h3>
+                <p>Modern aesthetic procedures for beautiful smiles</p>
+            </div>
+            <div class="service">
+                <h3>🔧 Endodontic Care</h3>
+                <p>Expert root canal treatments with modern techniques</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
