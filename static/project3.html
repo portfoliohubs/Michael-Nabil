@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Dental Care - Dr. Michael Nabil Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #8B5CF6;
+            --primary-dark: #7C3AED;
+            --accent: #F59E0B;
+            --white: #FFFFFF;
+            --gray-50: #F9FAFB;
+            --gradient-primary: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Tajawal', sans-serif;
+            background: var(--white);
+            color: #111827;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: var(--shadow-lg);
+            z-index: 1000;
+        }
+
+        .hero {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 120px 20px 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .service {
+            background: linear-gradient(135deg, var(--gray-50) 0%, white 100%);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+        }
+
+        .service h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    
+    <section class="hero">
+        <h1>Bright Dental Care</h1>
+        <p>Illuminating Your Path to Dental Excellence</p>
+    </section>
+
+    <div class="content">
+        <h2>Comprehensive Dental Services</h2>
+        <p>Bright Dental Care provides a full spectrum of dental treatments in a modern, comfortable environment.</p>
+        
+        <div class="services">
+            <div class="service">
+                <h3>🦷 Preventive Care</h3>
+                <p>Regular checkups and cleanings to maintain optimal oral health</p>
+            </div>
+            <div class="service">
+                <h3>✨ Restorative Dentistry</h3>
+                <p>High-quality fillings, crowns, and bridges to restore your smile</p>
+            </div>
+            <div class="service">
+                <h3>😁 Cosmetic Procedures</h3>
+                <p>Teeth whitening, veneers, and smile makeovers</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
